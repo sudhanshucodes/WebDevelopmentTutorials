@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peseudo selector & more designing </title>
+    <style>
+.container{
+    border: 2px solid red;
+    background-color: rgb(175, 240, 175);
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* background-color: rgb(238, 238, 118); */
+}
+a:hover{
+    color: black;
+    background-color: rgb(236, 236, 115);
+}
+a:visited{
+background-color: rgb(232, 235, 62);
+}
+ a:active{
+    background-color: blue; 
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(231, 62, 62);
+    padding: 6px;
+    border:none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: rgb(24, 223, 223);
+    background-color: azure;
+    border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3> This is my heading </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aperiam, adipisci vel quibusdam suscipit, dolorum est architecto velit aliquid optio autem, nisi modi? Labore quos nulla ut aspernatur sequi, laudantium tenetur ipsa inventore numquam nisi cupiditate non pariatur quas unde?</p>
+        <a href="https://www.IRCTC.com/" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
