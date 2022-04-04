@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/Screenshot\ \(14\).png);
+        width: 1895px;
+        height: 900px;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        border: 1px solid #ce32e9;
+        left: 20px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    .left div {
+        line-height: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 30%;
+        margin: 20px 290px;
+        border: 2px solid #130a7f;
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: inline-block;
+        border: 2px solid rgb(209, 247, 96);
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: #f8f7f8;
+        text-decoration: none;
+        padding: 25px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(213, 237, 59);
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: aqua;
+        color: rgb(71, 11, 201);
+        padding: 3px 4px;
+        border: 2px solid rgb(122, 236, 137);
+        border-radius: 14px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(230, 230, 114);
+    }
+
+    div.right {
+        background-color: transparent;
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 140px 8px;
+        padding: 22px 10px;
+        width: 25%;
+        border-radius: 46px;
+    }
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 3px solid black;
+        margin: 3px auto;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: 20px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+        </div>
+        <div class="left">
+            <img src="img/cda2081dfd2b1af5c0444a032294965c.jpg" alt="">
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#"> Fitness Calculator</a></li>
+                <li><a href="#"> Contact Us</a></li>
+            </ul>
+            <!-- i am mid -->
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</buttonn>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mobile no">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
