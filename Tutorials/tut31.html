@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+        /* border: 2px solid red; */
+        /* box-shadow: offset-x offset-y color; */
+        /* box-shadow: offset-x offset-y blur-redius color; */
+        /* box-shadow: offset-x offset-y blur-redius spread-redius color; */
+        margin: 23px 12px;
+        background-color: rgb(185, 227, 185);
+        /* box-shadow: 6px 5px greenyellow; */
+        /* box-shadow: -6px -5px greenyellow; */
+        /* box-shadow: -6px -5px 10px greenyellow; */
+        /* box-shadow: 6px 5px 10px 15px greenyellow; */
+        /* box-shadow: 6px 5px 10px 15px rgba(130, 178, 225, 0.7); */
+        box-shadow: inset 3px 5px red;
+        box-shadow: 3px 5px blue, 6px 7px yellow;
+    }
+    .card h2{
+        /* text-shadow: 1px -1px blue; */
+        text-shadow: 1px 2px 3px blue;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+           <h2>This is C++ course</h2> 
+           <p>I have started C++ course whitch does not mean that we will stop this course. We will continue this course to completion. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi, quae adipisci quibusdam mollitia minus, quisquam aliquam voluptatum odit soluta placeat! Laudantium, culpa fuga, necessitatibus tempore quo at non expedita, assumenda inventore eius omnis similique ex quasi distinctio vero nostrum!</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML course</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam a ab natus ea sit quas iure delectus nam saepe, enim ullam optio dolore rem eligendi quasi similique necessitatibus eaque, officia cum et illum autem! Ducimus saepe aspernatur tempora architecto maxime?</p> 
+        </div>
+        <div class="card" id="card-3">
+            <h2> This is CSS Course</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veritatis nisi magnam exercitationem, repellat sequi labore ipsa harum. Minima rerum sapiente fugiat unde nostrum! Eaque nulla, itaque sint magnam consequuntur voluptate? Ad laborum aspernatur earum quia cupiditate necessitatibus laboriosam omnis.
+        </div>
+    </div>
+</body>
+</html>
