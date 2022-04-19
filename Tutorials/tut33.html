@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animattion</title>
+</head>
+<STYle>
+    .container {
+        /* display: flex; */
+        background-color: yellow;
+    }
+
+    .box {
+        background-color: blue;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        /* animation-name: Prince5; */
+        animation-name: Prince1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: alternate;
+        animation-timing-function: ease-in-out;
+        /* animation-delay:5s ; */
+        animation-direction: reverse;
+    }
+
+
+    @keyframes Prince1 {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        25% {
+            top: 250px;
+            left: 0px;
+         } 
+
+        50% {
+            top: 250px;
+            left: 250px;
+        } 
+
+         75% {
+            top: 350px;
+            left: 0px;
+        } 
+
+         100% {
+            top: 0px;
+            left: 350px;
+        }  
+    } 
+
+
+    @keyframes Prince5 {
+        from {
+            width: 200px;
+        }
+
+        to {
+            width: 1400px;
+        }
+
+    }
+</STYle>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>
+
+</html>
