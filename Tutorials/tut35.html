@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        height: 80vh;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        color: greenyellow;
+        font-size: 55px;
+        display: flex;
+        background: brown;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid yellow;
+        border-radius: 10px;
+        width: 415px;
+        height: 400px;
+        /* transition: all 125s ease-in; */
+        transition-duration: 5000000s;
+        /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) */
+    }
+    .box:hover{
+         transform: rotate(360000000deg);
+        /* transform: skew(70deg); */ 
+        /* transform: scale(2); */
+        /* transform: translateX(333px); */
+        /* transform: translateY(333px) */
+        /* transform: translate(123px, 123px); */
+        rotate: inherit;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">KGF Chapter 2</div>
+    </div>
+</body>
+</html>
