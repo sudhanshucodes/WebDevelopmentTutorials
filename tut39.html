@@ -5,47 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript String Function </title>
-    <style>
-
-    </style>
+    <title>Scope and Conditionals</title>
 </head>
 
 <body>
+    <div>
+        <ul>
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+        </ul>
+    </div>
     <script>
-        var str = "This is a string";
-        console.log(str);
+        // var string1 = "This is a string";
+        // var string1 = "This is a string2";
+        // console.log(string1);
+        // let a = "u"
+        // {
+        //     let a = "u6";
+        //     console.log(a);
+        // }
+        // console.log(a);
+        // const a = "This cannot be  change";
+        // a = "I want to change this .This cannot be  change";
+        // console.log(a);
+        // let age = 17;
+        // if(age>18){
+        //     console.log("you can drink water");
+        // }
+        // else if (age==2){
+        //     console.log("Age is 2");
+        // }
+        // else if (age==17){
+        //     console.log("Age is 222");
+        // }
 
-        //First occurence of a substring
-        var position = str.indexOf('is');
-        console.log(position);
+        // else{
+        //     console.log("you can drink Cold Drink ");
+        // }
 
-        //Last occurence of a substring
-        position = str.lastIndexOf('is');
-        console.log(position);
+        const cups = 56;
+        switch (cups) {
+            case 4:
+                console.log("The value of cups is 4");
+                break;
 
-        //Substring from a string 
-        // var substr = str.slice(1,5);
-        // console.log(substr);
-        // var substr = str.substr(1,8);
-        var substr1 = str.substr(0, 3);
-        console.log(substr1);
+            case 43:
+                console.log("The value of cups is 43");
+                break;
 
-        // var replaced = str.replace('string', 'Prince');
-        // console.log(str);
-        // console.log(replaced);
+            case 34:
+                console.log("The value of cups is 34");
+                break;
 
-        // console.log(str.toUpperCase());
-        // console.log(str.toLowerCase());
-        // var newString = str.concat('New String');
-        // console.log(newString);
-        // var strWithWhitespace = "    this contains         whitespaces         ";
-        // console.log(strWithWhitespace);
-        // console.log(strWithWhitespace.trim());
-        // var char3 = str.charAt(2);
-        var char3 = str.charCodeAt(2);
-        console.log(char3);
-        console.log(str[3]);
+            case 56:
+                console.log("The value of cups is 56");
+                break;
+
+            case 66:
+                console.log("The value of cups is 66");
+                break;
+
+            default:
+                console.log("The value of the cups is none of 4, 43, 34, 56, 66,")
+                break;
+        }
 
     </script>
 </body>
