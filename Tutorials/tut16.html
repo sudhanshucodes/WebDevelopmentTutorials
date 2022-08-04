@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Signika', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: aqua
+        }
+
+        .item {
+            border: 3px solid rgb(216, 86, 86);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(218 244 202);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            clear: both;
+            width: 100%;
+        }
+
+        p,
+        h1 {
+            text-align: right;
+            text-align: left;
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, maxime
+                aut. Quos eum voluptatum eveniet dolore laboriosam fugit at facilis. Blanditiis enim debitis est
+                quodquos, fugiat, repudiandae aperiam non maxime vel ad corporis dolore! Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Culpa eveniet voluptatum doloremque amet at sunt accusantium sit voluptas!
+                Totam, harum?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, maxime
+                aut.fugiat, repudiandae Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, maiores.
+                aperiam non maxime vel ad corporis dolore! Lorem, lo ipsum dolor sit amet eveniet
+                ea necessitatibus quisquam, adipisci dolorem, sunt nobis eum tempora! Repudiandae nostrum culpa
+                voluptate et?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, maxime
+                aut. Quos eum voluptatum eveniet dolore laboriosam fugit at facilis. Blanditiis enim debitis est quod
+                quos, fugiat, repudiandae aperiam non maxime vel ad corporis dolore! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. In labore porro repudiandae, repellendus perferendis repellat architecto
+                hic inventore sint quam qui tempora, quidem, minus officia.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, maxime
+                aut. Quos eum voluptatum eveniet dolore laboriosam fugit at facilis. Blanditiis enim debitis est quod
+                quos, fugiat, repudiandae aperiam non maxime vel ad corporis dolore! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. In labore porro repudiandae, repellendus perferendis repellat architecto
+                hic inventore sint quam qui tempora, quidem, minus officia.</p>
+        </div>
+    </div>
+</body>
+
+</html>
